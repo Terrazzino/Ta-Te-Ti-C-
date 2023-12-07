@@ -8,6 +8,7 @@ namespace practicaTaTeTi
         {
             InitializeComponent();
         }
+
         Random random = new Random();
         List<int> posiciones = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
@@ -651,43 +652,123 @@ namespace practicaTaTeTi
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             //- Verticales
             else if (button1.Text == "X" && button4.Text == "X" && button9.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button3.Text == "X" && button6.Text == "X" && button7.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             //- Diagonales
             else if (button1.Text == "X" && button5.Text == "X" && button7.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button3.Text == "X" && button5.Text == "X" && button9.Text == "X")
             {
                 lblGanador.Text = "Has ganado!";
                 lblGanador.ForeColor = Color.Green;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
 
             //********************************** VALIDACIONES PARA LAS O **********************************
@@ -696,43 +777,123 @@ namespace practicaTaTeTi
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button9.Text == "O" && button8.Text == "O" && button7.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             //- Verticales
             else if (button1.Text == "O" && button4.Text == "O" && button9.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button3.Text == "O" && button6.Text == "O" && button7.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             //- Diagonales
             else if (button1.Text == "O" && button5.Text == "O" && button7.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
             else if (button3.Text == "O" && button5.Text == "O" && button9.Text == "O")
             {
                 lblPerdedor.Text = "Has perdido :(";
                 lblPerdedor.ForeColor = Color.Red;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
 
             //****************************************** EMPATE *******************************************
@@ -741,6 +902,16 @@ namespace practicaTaTeTi
             {
                 lblEmpate.Text = "Empate :O";
                 lblEmpate.ForeColor = Color.Blue;
+
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button7.Enabled = false;
+                button8.Enabled = false;
+                button9.Enabled = false;
             }
 
         }
